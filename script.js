@@ -42,3 +42,7 @@ btnPrev.addEventListener("click", prevImage);
 
 //start off the carousel
 showImage(currentIndex);
+
+
+//every 5 second go next image
+setInterval(nextImage,5000);
