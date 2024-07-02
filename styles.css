@@ -13,14 +13,15 @@ body {
   justify-content: center;
   align-items: center;
 }
-/* 
-.container{
+
+/* .container{
     position: relative;
-    width: 50%;
     border:none;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color:grey;
 } */
 
 .carousel {
@@ -70,3 +71,7 @@ body {
 .control.next {
     right: 0;
 }
+
+/* .circles{
+    bottom:0;
+} */
