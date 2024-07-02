@@ -14,15 +14,16 @@ body {
   align-items: center;
 }
 
-/* .container{
+.container{
     position: relative;
     border:none;
     width: 50%;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color:grey;
-} */
+}
 
 .carousel {
     position: relative;
@@ -64,7 +65,7 @@ body {
     user-select: none;
 }
 
-.control.prev {
+.control.previous {
     left: 0;
 }
 
@@ -72,6 +73,7 @@ body {
     right: 0;
 }
 
-/* .circles{
+.circles{
+    position: absolute;
     bottom:0;
-} */
+}
