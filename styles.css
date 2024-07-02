@@ -22,7 +22,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:grey;
+    background-color:black;
 }
 
 .carousel {
@@ -60,7 +60,7 @@ body {
     font-weight: bold;
     font-size: 18px;
     cursor: pointer;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: grey;
     border: none;
     user-select: none;
 }
@@ -73,7 +73,22 @@ body {
     right: 0;
 }
 
+/* bottom navigation circles css */
+
 .circles{
     position: absolute;
     bottom:0;
+}
+
+.circles button{
+    border-radius:50%;
+    width:15px;
+    height:15px;
+    border:none;
+    cursor: pointer;  
+    background-color: white;
+}
+
+.circles button:hover{
+    background-color: grey;
 }

@@ -40,6 +40,19 @@ btnNext.addEventListener("click", nextImage);
 const btnPrev = document.querySelector(".previous");
 btnPrev.addEventListener("click", prevImage);
 
+
+//bottom navigation circle function
+const circleButtons = document.querySelectorAll('.circles button');
+circleButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    const index = parseInt(button.getAttribute('class'));
+    showImage(index);
+  });
+});
+
+
+
+
 //start off the carousel
 showImage(currentIndex);
 
